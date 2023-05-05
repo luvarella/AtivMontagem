@@ -1,0 +1,225 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+
+body{
+      background-color: #F3F2F3;
+}
+
+header{
+
+     /* background-color:#018AC0;*/
+      display: flex;
+      justify-content: space-between;
+      background-image: linear-gradient( to right,#02C6F2,#018AC0);
+}
+
+h1{
+      font-family: monospace;
+      color: white;
+      text-align: left;
+      margin: 1em;
+}
+
+nav{
+  text-align: right;
+  margin: 1em;
+}
+
+header ol{
+      list-style-type: none;
+      font-family: Andale Mono, monospace;
+      margin: 1em;
+      text-align: right;
+}
+
+header li{
+      display: inline;
+}
+
+header a{
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+}
+
+header a:hover{
+      color: #FFDB70;
+}
+
+header a:visited{
+      color: #FFAB41;
+}
+
+main{
+      background-color: #F3F2F3;
+      display: flex;
+      margin: 0 auto;
+      width: 100em;
+}
+
+main section{
+      margin: 3em 0;
+      background-color: inherit;
+      display: flex;
+      width: 53em;
+      flex-wrap: wrap;
+      margin-left: 1em;
+}
+
+p section{
+      color: white;
+}
+
+div{
+      margin: 1em;
+      padding: 1em;
+      width: 23em;
+      box-sizing: border-box;
+      background-color: #02C6F2;
+}
+
+div h3{
+      font-family: monospace;
+      font-size: 20px;
+      color: white;
+}
+
+div p{
+      font-family: arial;
+      font-size: 15px;
+      color: white;
+      font-style: bold;
+}
+
+div figure{
+      text-align: center;
+}
+
+p.nome{
+      color: white;
+      font-family: Arial;
+      text-align: left;
+      font-style: bold;
+      opacity: 70%;
+}
+
+p.data{
+      color: white;
+      font-family: Arial;
+      text-align: left;
+      font-style: bold;
+      opacity: 70%;
+      margin-bottom: 1em;
+}
+
+div img{
+      ;
+}
+
+section img{
+      height: 175px;
+      width: 300px;
+      text-align: center;
+}
+
+aside img{
+      height: 175px;
+      width: 300px;
+    /*  background-color: #02C6F2;*/
+}
+
+aside{
+      background-color: #02C6F2;
+      width: 24em;
+      height: 658px;
+      margin-top: 4em;
+      margin-left: 3em;
+      text-align: left;
+}
+
+aside h2{
+      color: white;
+      font-family: monospace;
+      font-size: 24px;
+      margin-left: 1em;
+      background-color: #02C6F2;
+      margin-top: 1em;
+      margin-bottom: 10px;
+}
+
+figure.calendario{
+      text-align: center;
+}
+
+aside div{
+      padding: 0;
+      margin: 0 auto;
+}
+
+aside input[type = "search"]{
+      margin-left: 2em;
+      mergin-top: 2em;
+
+}
+
+aside input[type = "image"]{
+      height: 18px;
+}
+
+
+aside form{
+      padding: 0 auto;
+}
+
+aside p{
+      margin-left: 24px;
+      font-family: monospace;
+      font-size: 17px;
+      color: white;
+      width: 20em;
+      text-align: left;
+}
+
+aside input[type = "radio"]{
+      mergin-top: 2em;
+      width: 14px;
+      height: 14px;
+      margin-bottom: 1em;
+
+}
+
+label{
+      height: 1px;
+      width: 1px;
+}
+
+ul{
+     margin-left: 24px;
+     padding: 1em;
+     color: white;
+}
+
+li{
+    font-family: arial;
+}
+
+aside input[type = "submit"]{
+    margin-top: 1em;
+    margin-left: 24px;
+    height: 2em;
+    width: 4em;
+}
+
+footer{
+    background-color: #018AC0;
+    padding: 2em;
+}
+
+footer p{
+    font-size: 15px;
+    font-family: arial;
+    color: white;
+    margin-bottom: 1em;
+}
